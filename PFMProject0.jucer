@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="UgyQ8G" name="PFMProject0" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildVST">
   <MAINGROUP id="yKRevq" name="PFMProject0">
     <GROUP id="{5A3E5B1A-14DA-D6E2-9B16-57FACF91F0BB}" name="Source">
       <FILE id="rqEuYk" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -17,7 +18,7 @@
   <EXPORTFORMATS>
     <VS2017 targetFolder="Builds/VisualStudio2017">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="PFMProject0"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PFMProject0" enablePluginBinaryCopyStep="1"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="PFMProject0"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
@@ -51,4 +52,7 @@
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
 </JUCERPROJECT>
